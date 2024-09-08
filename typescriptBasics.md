@@ -35,5 +35,13 @@ He create a new language that was closer to JavaScript. One that enabled all of 
 
 ## Tools for TypeScript Development
 
+These are the tools you need in order to work with TypeScript:
+1. An IDE: Something like VisualStudio ✅
+2. An Execution Environment: Somewhere to run the emitted JavaScript - could be Node.js or a web browser like Chrome ✅
+3. The TypeScript CLI: Node.js is need in order to run the TypeScript CLI. This converts TypeScript to JavaScript, warning you of any issues in the project ✅
 
+## Installing PNPM
+
+- Instead of using `npm install` to download the packages into `node_modules` folder, use `pnpm` as it is more efficient.
+- Instead of having individual `node_modules` folders for each project, `pnpm` uses a single location on your computer and hard links the dependencies from there - it will run faster and use less disk space. 
 
